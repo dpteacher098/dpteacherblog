@@ -40,9 +40,9 @@ function Retrieve() {
                 $("#table-data").append(
                     '<tr>' +
                     '<td class="w-15">' + FillTime + '</td>' +
-                    '<td class="w-10">' + Department + '</td>' +
-                    '<td class="w-10">' + Applicant + '</td>' +
-                    '<td class="w-10">' + RoomName + '</td>' +
+                    '<td class="w-10">' + classID + '</td>' +
+                    '<td class="w-10">' + App_name + '</td>' +
+                    '<td class="w-10">' + Itemclass '</td>' +
                     '<td class="w-15">' + BorrowDate + '</td>' +
                     '<td class="w-15">' + StartTime + '</td>' +
                     '<td class="w-15">' + EndTime + '</td>' +
