@@ -1,0 +1,42 @@
+/* 基本設定 */
+body {
+    font-family: 'Microsoft JhengHei';
+}
+
+/* 標題設定 */
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* 間距類別 */
+.padding-tb {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.group {
+    padding-top: 30px;
+}
+
+/* 寬度類別 */
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+/* 搜尋選單樣式 */
+#select {
+    width: 120px;
+    height: 40px;
+}
+
+/* 響應式設計：當螢幕寬度大於等於 768px 時 */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+}
