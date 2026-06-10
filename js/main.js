@@ -21,7 +21,7 @@ function Retrieve() {
 			if(Length > 0) {
 				for (i = 0; Info.length > i; i++) {
 					FillTime = Info[i].FillTime;
-					//Email=Info[i].Email;
+					
 					classID = Info[i].classID;
 					App_name = Info[i].App_name;
 					Itemclass = Info[i].Itemclass;
@@ -42,7 +42,7 @@ function Retrieve() {
                     '<td class="w-15">' + FillTime + '</td>' +
                     '<td class="w-10">' + classID + '</td>' +
                     '<td class="w-10">' + App_name + '</td>' +
-                    '<td class="w-10">' + Itemclass '</td>' +
+                    '<td class="w-10">' + Itemclass +'</td>' +
                     '<td class="w-15">' + BorrowDate + '</td>' +
                     '<td class="w-15">' + StartTime + '</td>' +
                     '<td class="w-15">' + EndTime + '</td>' +
